@@ -1,14 +1,1259 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "search_metadata": {
+    "id": "67f01d5cdc8e120accc86af9",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/2d2a9069a3a70264/67f01d5cdc8e120accc86af9.json",
+    "created_at": "2025-04-04 17:56:44 UTC",
+    "processed_at": "2025-04-04 17:56:44 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI1LTA0LTA0agcIARIDSUFIcgcIARIDSE5EGh4SCjIwMjUtMDQtMTBqBwgBEgNITkRyBwgBEgNJQUhCAQFIAXABmAEB&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/2d2a9069a3a70264/67f01d5cdc8e120accc86af9.html",
+    "prettify_html_file": "https://serpapi.com/searches/2d2a9069a3a70264/67f01d5cdc8e120accc86af9.prettify",
+    "total_time_taken": 0.36
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "us",
+    "departure_id": "IAH",
+    "arrival_id": "HND",
+    "outbound_date": "2025-04-04",
+    "return_date": "2025-04-10",
+    "currency": "USD"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2025-04-04 18:15"
+          },
+          "arrival_airport": {
+            "name": "Toronto Pearson International Airport",
+            "id": "YYZ",
+            "time": "2025-04-04 22:36"
+          },
+          "duration": 201,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 313",
+          "ticket_also_sold_by": [
+            "Air Canada"
+          ],
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "Stream media to your device",
+            "Carbon emissions estimate: 205 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Toronto Pearson International Airport",
+            "id": "YYZ",
+            "time": "2025-04-05 13:15"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2025-04-06 15:50"
+          },
+          "duration": 815,
+          "airplane": "Boeing 777",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Economy",
+          "flight_number": "AC 1",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 615 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 879,
+          "name": "Toronto Pearson International Airport",
+          "id": "YYZ",
+          "overnight": true
+        }
+      ],
+      "total_duration": 1895,
+      "carbon_emissions": {
+        "this_flight": 821000,
+        "typical_for_this_route": 716000,
+        "difference_percent": 15
+      },
+      "price": 1232,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "departure_token": "WyJDalJJWkhSWVlVTjRSM1J0Tld0QlEyUldiVUZDUnkwdExTMHRMUzB0TFhaMGJta3hORUZCUVVGQlIyWjNTRlozVG1sVldtRkJFZ2xWUVRNeE0zeEJRekVhQ3dpVndnY1FBaG9EVlZORU9CeHdsY0lIIixbWyJJQUgiLCIyMDI1LTA0LTA0IiwiWVlaIixudWxsLCJVQSIsIjMxMyJdLFsiWVlaIiwiMjAyNS0wNC0wNSIsIkhORCIsbnVsbCwiQUMiLCIxIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2025-04-04 21:00"
+          },
+          "arrival_airport": {
+            "name": "Istanbul Airport",
+            "id": "IST",
+            "time": "2025-04-05 17:05"
+          },
+          "duration": 725,
+          "airplane": "Boeing 787",
+          "airline": "Turkish Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+          "travel_class": "Economy",
+          "flight_number": "TK 34",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 524 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Istanbul Airport",
+            "id": "IST",
+            "time": "2025-04-06 02:00"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2025-04-06 19:20"
+          },
+          "duration": 680,
+          "airplane": "Boeing 777",
+          "airline": "Turkish Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+          "travel_class": "Economy",
+          "flight_number": "TK 198",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 675 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 535,
+          "name": "Istanbul Airport",
+          "id": "IST"
+        }
+      ],
+      "total_duration": 1940,
+      "carbon_emissions": {
+        "this_flight": 1200000,
+        "typical_for_this_route": 716000,
+        "difference_percent": 68
+      },
+      "price": 1966,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+      "departure_token": "WyJDalJJWkhSWVlVTjRSM1J0Tld0QlEyUldiVUZDUnkwdExTMHRMUzB0TFhaMGJta3hORUZCUVVGQlIyWjNTRlozVG1sVldtRkJFZ3BVU3pNMGZGUkxNVGs0R2dzSXMvOExFQUlhQTFWVFJEZ2NjTFAvQ3c9PSIsW1siSUFIIiwiMjAyNS0wNC0wNCIsIklTVCIsbnVsbCwiVEsiLCIzNCJdLFsiSVNUIiwiMjAyNS0wNC0wNiIsIkhORCIsbnVsbCwiVEsiLCIxOTgiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2025-04-04 16:12"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-04-04 20:59"
+          },
+          "duration": 227,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 82",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 234 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-04-05 01:30"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2025-04-06 04:45"
+          },
+          "duration": 855,
+          "airplane": "Airbus A350",
+          "airline": "JAL",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+          "travel_class": "Economy",
+          "flight_number": "JL 3",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 735 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 271,
+          "name": "John F. Kennedy International Airport",
+          "id": "JFK"
+        }
+      ],
+      "total_duration": 1353,
+      "carbon_emissions": {
+        "this_flight": 971000,
+        "typical_for_this_route": 716000,
+        "difference_percent": 36
+      },
+      "price": 2748,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "departure_token": "WyJDalJJWkhSWVlVTjRSM1J0Tld0QlEyUldiVUZDUnkwdExTMHRMUzB0TFhaMGJta3hORUZCUVVGQlIyWjNTRlozVG1sVldtRkJFZ2hDTmpneWZFcE1NeG9MQ0t2aUVCQUNHZ05WVTBRNEhIQ3I0aEE9IixbWyJJQUgiLCIyMDI1LTA0LTA0IiwiSkZLIixudWxsLCJCNiIsIjgyIl0sWyJKRksiLCIyMDI1LTA0LTA1IiwiSE5EIixudWxsLCJKTCIsIjMiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2025-04-04 21:30"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-04-04 23:16"
+          },
+          "duration": 226,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1764",
+          "ticket_also_sold_by": [
+            "ANA"
+          ],
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 174 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-04-05 00:50"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2025-04-06 05:05"
+          },
+          "duration": 735,
+          "airplane": "Boeing 787",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Economy",
+          "flight_number": "NH 105",
+          "ticket_also_sold_by": [
+            "United"
+          ],
+          "legroom": "34 in",
+          "extensions": [
+            "Above average legroom (34 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 464 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 94,
+          "name": "Los Angeles International Airport",
+          "id": "LAX"
+        }
+      ],
+      "total_duration": 1055,
+      "carbon_emissions": {
+        "this_flight": 640000,
+        "typical_for_this_route": 716000,
+        "difference_percent": -11
+      },
+      "price": 3087,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "departure_token": "WyJDalJJWkhSWVlVTjRSM1J0Tld0QlEyUldiVUZDUnkwdExTMHRMUzB0TFhaMGJta3hORUZCUVVGQlIyWjNTRlozVG1sVldtRkJFZ3hWUVRFM05qUjhUa2d4TURVYUN3aXI2eElRQWhvRFZWTkVPQnh3cStzUyIsW1siSUFIIiwiMjAyNS0wNC0wNCIsIkxBWCIsbnVsbCwiVUEiLCIxNzY0Il0sWyJMQVgiLCIyMDI1LTA0LTA1IiwiSE5EIixudWxsLCJOSCIsIjEwNSJdXV0="
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2025-04-04 18:10"
+          },
+          "arrival_airport": {
+            "name": "Hamad International Airport",
+            "id": "DOH",
+            "time": "2025-04-05 16:45"
+          },
+          "duration": 875,
+          "airplane": "Airbus A350",
+          "airline": "Qatar Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
+          "travel_class": "Economy",
+          "flight_number": "QR 714",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 792 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hamad International Airport",
+            "id": "DOH",
+            "time": "2025-04-06 07:30"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2025-04-06 23:55"
+          },
+          "duration": 625,
+          "airplane": "Boeing 787",
+          "airline": "JAL",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+          "travel_class": "Economy",
+          "flight_number": "JL 50",
+          "ticket_also_sold_by": [
+            "Qatar Airways"
+          ],
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 558 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 885,
+          "name": "Hamad International Airport",
+          "id": "DOH",
+          "overnight": true
+        }
+      ],
+      "total_duration": 2385,
+      "carbon_emissions": {
+        "this_flight": 1351000,
+        "typical_for_this_route": 716000,
+        "difference_percent": 89
+      },
+      "price": 2595,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "departure_token": "WyJDalJJWkhSWVlVTjRSM1J0Tld0QlEyUldiVUZDUnkwdExTMHRMUzB0TFhaMGJta3hORUZCUVVGQlIyWjNTRlozVG1sVldtRkJFZ3BSVWpjeE5IeEtURFV3R2dzSW8rc1BFQUlhQTFWVFJEZ2NjS1ByRHc9PSIsW1siSUFIIiwiMjAyNS0wNC0wNCIsIkRPSCIsbnVsbCwiUVIiLCI3MTQiXSxbIkRPSCIsIjIwMjUtMDQtMDYiLCJITkQiLG51bGwsIkpMIiwiNTAiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2025-04-04 18:37"
+          },
+          "arrival_airport": {
+            "name": "Newark Liberty International Airport",
+            "id": "EWR",
+            "time": "2025-04-04 23:15"
+          },
+          "duration": 218,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1796",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 183 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Newark Liberty International Airport",
+            "id": "EWR",
+            "time": "2025-04-05 10:15"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2025-04-06 13:35"
+          },
+          "duration": 860,
+          "airplane": "Boeing 777",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 131",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 698 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 660,
+          "name": "Newark Liberty International Airport",
+          "id": "EWR",
+          "overnight": true
+        }
+      ],
+      "total_duration": 1738,
+      "carbon_emissions": {
+        "this_flight": 882000,
+        "typical_for_this_route": 716000,
+        "difference_percent": 23
+      },
+      "price": 2788,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "departure_token": "WyJDalJJWkhSWVlVTjRSM1J0Tld0QlEyUldiVUZDUnkwdExTMHRMUzB0TFhaMGJta3hORUZCUVVGQlIyWjNTRlozVG1sVldtRkJFZ3hWUVRFM09UWjhWVUV4TXpFYUN3amZnUkVRQWhvRFZWTkVPQnh3MzRFUiIsW1siSUFIIiwiMjAyNS0wNC0wNCIsIkVXUiIsbnVsbCwiVUEiLCIxNzk2Il0sWyJFV1IiLCIyMDI1LTA0LTA1IiwiSE5EIixudWxsLCJVQSIsIjEzMSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2025-04-04 19:51"
+          },
+          "arrival_airport": {
+            "name": "Dulles International Airport",
+            "id": "IAD",
+            "time": "2025-04-04 23:59"
+          },
+          "duration": 188,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1887",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 167 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Dulles International Airport",
+            "id": "IAD",
+            "time": "2025-04-05 12:15"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2025-04-06 15:20"
+          },
+          "duration": 845,
+          "airplane": "Boeing 787",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Economy",
+          "flight_number": "NH 101",
+          "ticket_also_sold_by": [
+            "United"
+          ],
+          "legroom": "34 in",
+          "extensions": [
+            "Above average legroom (34 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 779 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 736,
+          "name": "Dulles International Airport",
+          "id": "IAD",
+          "overnight": true
+        }
+      ],
+      "total_duration": 1769,
+      "carbon_emissions": {
+        "this_flight": 948000,
+        "typical_for_this_route": 716000,
+        "difference_percent": 32
+      },
+      "price": 2807,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "departure_token": "WyJDalJJWkhSWVlVTjRSM1J0Tld0QlEyUldiVUZDUnkwdExTMHRMUzB0TFhaMGJta3hORUZCUVVGQlIyWjNTRlozVG1sVldtRkJFZ3hWUVRFNE9EZDhUa2d4TURFYUN3aS9rQkVRQWhvRFZWTkVPQnh3djVBUiIsW1siSUFIIiwiMjAyNS0wNC0wNCIsIklBRCIsbnVsbCwiVUEiLCIxODg3Il0sWyJJQUQiLCIyMDI1LTA0LTA1IiwiSE5EIixudWxsLCJOSCIsIjEwMSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2025-04-04 19:51"
+          },
+          "arrival_airport": {
+            "name": "Dulles International Airport",
+            "id": "IAD",
+            "time": "2025-04-04 23:59"
+          },
+          "duration": 188,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1887",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 167 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Dulles International Airport",
+            "id": "IAD",
+            "time": "2025-04-05 12:10"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2025-04-06 15:25"
+          },
+          "duration": 855,
+          "airplane": "Boeing 777",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 803",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 700 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 731,
+          "name": "Dulles International Airport",
+          "id": "IAD",
+          "overnight": true
+        }
+      ],
+      "total_duration": 1774,
+      "carbon_emissions": {
+        "this_flight": 868000,
+        "typical_for_this_route": 716000,
+        "difference_percent": 21
+      },
+      "price": 2807,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "departure_token": "WyJDalJJWkhSWVlVTjRSM1J0Tld0QlEyUldiVUZDUnkwdExTMHRMUzB0TFhaMGJta3hORUZCUVVGQlIyWjNTRlozVG1sVldtRkJFZ3hWUVRFNE9EZDhWVUU0TURNYUN3aS9rQkVRQWhvRFZWTkVPQnh3djVBUiIsW1siSUFIIiwiMjAyNS0wNC0wNCIsIklBRCIsbnVsbCwiVUEiLCIxODg3Il0sWyJJQUQiLCIyMDI1LTA0LTA1IiwiSE5EIixudWxsLCJVQSIsIjgwMyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2025-04-04 18:16"
+          },
+          "arrival_airport": {
+            "name": "Minneapolis–Saint Paul International Airport",
+            "id": "MSP",
+            "time": "2025-04-04 21:09"
+          },
+          "duration": 173,
+          "airplane": "Airbus A220-100 Passenger",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 2644",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 190 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Minneapolis–Saint Paul International Airport",
+            "id": "MSP",
+            "time": "2025-04-05 10:30"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2025-04-06 13:05"
+          },
+          "duration": 755,
+          "airplane": "Airbus A350",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 121",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 684 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 801,
+          "name": "Minneapolis–Saint Paul International Airport",
+          "id": "MSP",
+          "overnight": true
+        }
+      ],
+      "total_duration": 1729,
+      "carbon_emissions": {
+        "this_flight": 875000,
+        "typical_for_this_route": 716000,
+        "difference_percent": 22
+      },
+      "price": 2845,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "departure_token": "WyJDalJJWkhSWVlVTjRSM1J0Tld0QlEyUldiVUZDUnkwdExTMHRMUzB0TFhaMGJta3hORUZCUVVGQlIyWjNTRlozVG1sVldtRkJFZ3hFVERJMk5EUjhSRXd4TWpFYUN3aVByaEVRQWhvRFZWTkVPQnh3ajY0UiIsW1siSUFIIiwiMjAyNS0wNC0wNCIsIk1TUCIsbnVsbCwiREwiLCIyNjQ0Il0sWyJNU1AiLCIyMDI1LTA0LTA1IiwiSE5EIixudWxsLCJETCIsIjEyMSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2025-04-04 18:32"
+          },
+          "arrival_airport": {
+            "name": "LaGuardia Airport",
+            "id": "LGA",
+            "time": "2025-04-04 23:15"
+          },
+          "duration": 223,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 2659",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 194 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-04-05 02:00"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2025-04-06 05:15"
+          },
+          "duration": 855,
+          "airplane": "Boeing 777",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Economy",
+          "flight_number": "NH 159",
+          "ticket_also_sold_by": [
+            "United"
+          ],
+          "legroom": "34 in",
+          "extensions": [
+            "Above average legroom (34 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 735 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 165,
+          "name": "John F. Kennedy International Airport",
+          "id": "LGA"
+        }
+      ],
+      "total_duration": 1243,
+      "carbon_emissions": {
+        "this_flight": 930000,
+        "typical_for_this_route": 716000,
+        "difference_percent": 30
+      },
+      "price": 2987,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "departure_token": "WyJDalJJWkhSWVlVTjRSM1J0Tld0QlEyUldiVUZDUnkwdExTMHRMUzB0TFhaMGJta3hORUZCUVVGQlIyWjNTRlozVG1sVldtRkJFZ3hWUVRJMk5UbDhUa2d4TlRrYUN3aWJuUklRQWhvRFZWTkVPQnh3bTUwUyIsW1siSUFIIiwiMjAyNS0wNC0wNCIsIkxHQSIsbnVsbCwiVUEiLCIyNjU5Il0sWyJKRksiLCIyMDI1LTA0LTA1IiwiSE5EIixudWxsLCJOSCIsIjE1OSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2025-04-04 21:35"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2025-04-04 23:57"
+          },
+          "duration": 262,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 725",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 211 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2025-04-05 01:45"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2025-04-06 05:00"
+          },
+          "duration": 675,
+          "airplane": "Boeing 777",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Economy",
+          "flight_number": "NH 107",
+          "ticket_also_sold_by": [
+            "United"
+          ],
+          "legroom": "34 in",
+          "extensions": [
+            "Above average legroom (34 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 646 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 108,
+          "name": "San Francisco International Airport",
+          "id": "SFO"
+        }
+      ],
+      "total_duration": 1045,
+      "carbon_emissions": {
+        "this_flight": 858000,
+        "typical_for_this_route": 716000,
+        "difference_percent": 20
+      },
+      "price": 3536,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "departure_token": "WyJDalJJWkhSWVlVTjRSM1J0Tld0QlEyUldiVUZDUnkwdExTMHRMUzB0TFhaMGJta3hORUZCUVVGQlIyWjNTRlozVG1sVldtRkJFZ3RWUVRjeU5YeE9TREV3TnhvTENJL0tGUkFDR2dOVlUwUTRISENQeWhVPSIsW1siSUFIIiwiMjAyNS0wNC0wNCIsIlNGTyIsbnVsbCwiVUEiLCI3MjUiXSxbIlNGTyIsIjIwMjUtMDQtMDUiLCJITkQiLG51bGwsIk5IIiwiMTA3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2025-04-04 16:30"
+          },
+          "arrival_airport": {
+            "name": "Munich International Airport",
+            "id": "MUC",
+            "time": "2025-04-05 09:45"
+          },
+          "duration": 615,
+          "airplane": "Boeing 777",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 102",
+          "ticket_also_sold_by": [
+            "Lufthansa"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 582 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Munich International Airport",
+            "id": "MUC",
+            "time": "2025-04-05 11:15"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2025-04-06 06:55"
+          },
+          "duration": 760,
+          "airplane": "Boeing 787",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Economy",
+          "flight_number": "NH 218",
+          "ticket_also_sold_by": [
+            "Lufthansa"
+          ],
+          "legroom": "34 in",
+          "extensions": [
+            "Above average legroom (34 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 644 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 90,
+          "name": "Munich International Airport",
+          "id": "MUC"
+        }
+      ],
+      "total_duration": 1465,
+      "carbon_emissions": {
+        "this_flight": 1227000,
+        "typical_for_this_route": 716000,
+        "difference_percent": 71
+      },
+      "price": 5887,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "departure_token": "WyJDalJJWkhSWVlVTjRSM1J0Tld0QlEyUldiVUZDUnkwdExTMHRMUzB0TFhaMGJta3hORUZCUVVGQlIyWjNTRlozVG1sVldtRkJFZ3RWUVRFd01ueE9TREl4T0JvTENOZjJJeEFDR2dOVlUwUTRISERYOWlNPSIsW1siSUFIIiwiMjAyNS0wNC0wNCIsIk1VQyIsbnVsbCwiVUEiLCIxMDIiXSxbIk1VQyIsIjIwMjUtMDQtMDUiLCJITkQiLG51bGwsIk5IIiwiMjE4Il1dXQ=="
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "price_insights": {
+    "lowest_price": 1232,
+    "price_level": "typical",
+    "typical_price_range": [
+      1150,
+      1750
+    ],
+    "price_history": [
+      [
+        1738562400,
+        1310
+      ],
+      [
+        1738648800,
+        1310
+      ],
+      [
+        1738735200,
+        1407
+      ],
+      [
+        1738821600,
+        1310
+      ],
+      [
+        1738908000,
+        1310
+      ],
+      [
+        1738994400,
+        1408
+      ],
+      [
+        1739080800,
+        1408
+      ],
+      [
+        1739167200,
+        1408
+      ],
+      [
+        1739253600,
+        1408
+      ],
+      [
+        1739340000,
+        1408
+      ],
+      [
+        1739426400,
+        1338
+      ],
+      [
+        1739512800,
+        1262
+      ],
+      [
+        1739599200,
+        1262
+      ],
+      [
+        1739685600,
+        1263
+      ],
+      [
+        1739772000,
+        1263
+      ],
+      [
+        1739858400,
+        1263
+      ],
+      [
+        1739944800,
+        1263
+      ],
+      [
+        1740031200,
+        1263
+      ],
+      [
+        1740117600,
+        1263
+      ],
+      [
+        1740204000,
+        1223
+      ],
+      [
+        1740290400,
+        1023
+      ],
+      [
+        1740376800,
+        980
+      ],
+      [
+        1740463200,
+        1012
+      ],
+      [
+        1740549600,
+        1012
+      ],
+      [
+        1740636000,
+        1157
+      ],
+      [
+        1740722400,
+        1363
+      ],
+      [
+        1740808800,
+        1363
+      ],
+      [
+        1740895200,
+        1363
+      ],
+      [
+        1740981600,
+        1363
+      ],
+      [
+        1741068000,
+        1363
+      ],
+      [
+        1741154400,
+        1398
+      ],
+      [
+        1741240800,
+        1398
+      ],
+      [
+        1741327200,
+        1398
+      ],
+      [
+        1741413600,
+        1398
+      ],
+      [
+        1741500000,
+        1398
+      ],
+      [
+        1741582800,
+        1398
+      ],
+      [
+        1741669200,
+        1463
+      ],
+      [
+        1741755600,
+        1463
+      ],
+      [
+        1741842000,
+        1464
+      ],
+      [
+        1741928400,
+        1398
+      ],
+      [
+        1742014800,
+        1373
+      ],
+      [
+        1742101200,
+        1398
+      ],
+      [
+        1742187600,
+        1333
+      ],
+      [
+        1742274000,
+        1408
+      ],
+      [
+        1742360400,
+        1433
+      ],
+      [
+        1742446800,
+        1433
+      ],
+      [
+        1742533200,
+        1433
+      ],
+      [
+        1742619600,
+        1498
+      ],
+      [
+        1742706000,
+        1433
+      ],
+      [
+        1742792400,
+        1408
+      ],
+      [
+        1742878800,
+        1408
+      ],
+      [
+        1742965200,
+        1298
+      ],
+      [
+        1743051600,
+        1000
+      ],
+      [
+        1743138000,
+        968
+      ],
+      [
+        1743224400,
+        1463
+      ],
+      [
+        1743310800,
+        1363
+      ],
+      [
+        1743397200,
+        936
+      ],
+      [
+        1743483600,
+        991
+      ],
+      [
+        1743570000,
+        1055
+      ],
+      [
+        1743656400,
+        1055
+      ],
+      [
+        1743742800,
+        1232
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "IAH",
+            "name": "George Bush Intercontinental Airport"
+          },
+          "city": "Houston",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRz_aR3EzoKfjEPwCej8qCyvWu66T9EG171Y9ey1vB16_s9_YVDC1kK_t1Sz1kmayNRX3_br6GHaXQB2w",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTJgsjp3FWA9KoFT7mGzSkSaSLpstcd5dLcH8nD_Pl107uGJg0jhuwJ0c1tPu1UhPLZZfhCHa047RMVmf92BbxfTHQazhW06yPuIJYSL08"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "HND",
+            "name": "Haneda Airport"
+          },
+          "city": "Tokyo",
+          "country": "Japan",
+          "country_code": "JP",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqHkzEeI2bSglPzmSGZL7bxXmn0wJgOn2ZtEN8I47uBnzY1CnHzGtD-YseJXqyexcAcw_uJp-D5HTkCg",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRLnIToEgwiM_jV3cbw5eQZoUAIg6XqdrJAiClDyyg0w-JBSRN5ZeOT-iFb3SvwkwP1uoBCmT-gKE5VcyCYf-xq4guL4NAFICSaNyOnYOA"
+        }
+      ]
+    },
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "HND",
+            "name": "Haneda Airport"
+          },
+          "city": "Tokyo",
+          "country": "Japan",
+          "country_code": "JP",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqHkzEeI2bSglPzmSGZL7bxXmn0wJgOn2ZtEN8I47uBnzY1CnHzGtD-YseJXqyexcAcw_uJp-D5HTkCg",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRLnIToEgwiM_jV3cbw5eQZoUAIg6XqdrJAiClDyyg0w-JBSRN5ZeOT-iFb3SvwkwP1uoBCmT-gKE5VcyCYf-xq4guL4NAFICSaNyOnYOA"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "IAH",
+            "name": "George Bush Intercontinental Airport"
+          },
+          "city": "Houston",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRz_aR3EzoKfjEPwCej8qCyvWu66T9EG171Y9ey1vB16_s9_YVDC1kK_t1Sz1kmayNRX3_br6GHaXQB2w",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTJgsjp3FWA9KoFT7mGzSkSaSLpstcd5dLcH8nD_Pl107uGJg0jhuwJ0c1tPu1UhPLZZfhCHa047RMVmf92BbxfTHQazhW06yPuIJYSL08"
+        }
+      ]
+    }
+  ]
 }
